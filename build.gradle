@@ -15,13 +15,9 @@ repositories {
 dependencies {
     // spring
     implementation 'org.springframework.boot:spring-boot-starter-web'
-    implementation 'org.springframework.boot:spring-boot-starter-jdbc'
 
     // test
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
-
-    // database
-    runtimeOnly 'com.h2database:h2'
 }
 
 test {
